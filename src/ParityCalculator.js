@@ -65,7 +65,7 @@ export default function ParityCalculator() {
     if (selectedType === "goldFut" || selectedType === "goldOpt") {
       cmeRate = (cmeNum / 10) * 0.3199 * (10000 / iuNum);
     } else if (selectedType === "silverFut" || selectedType === "silverOpt") {
-      cmeRate = (cmeNum / 1000) * 31.1035 * (10000 / iuNum);
+      cmeRate = (cmeNum / 1000) * 32.1507 * (10000 / iuNum);
     } else if (selectedType === "crudeFut" || selectedType === "crudeOpt") {
       cmeRate = (cmeNum / 100) * (10000 / iuNum);
     } else if (selectedType === "natgasFut" || selectedType === "natgasOpt") {
